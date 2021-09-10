@@ -1,0 +1,490 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px 0px;
+}
+body{
+    background-color: rgb(231, 226, 226);
+}
+a{
+    text-decoration: none;
+    color: ivory;
+}
+.logo{
+    display: inline-block;
+    padding: 30px 30px;
+}
+.search{
+    display: inline-block;
+}
+.menu{
+    padding-left: 2%;
+    float: left;
+    height: 60px;
+    width: 100%;
+    background-color: rgb(218, 149, 149);
+    box-shadow: rgba(0,0,0,0.2);
+}
+.boxsearch{
+  background-color: ivory;
+  border: solid;
+  font-size: 20px;
+  color: rgb(89, 66, 173);
+  border-color: rgb(13, 132, 230);
+  height: 40px;
+  width: 550px;
+}
+.name{
+    font-weight: bolder;
+    font-size: 40px;
+    color: ivory;
+    display: inline-block;
+    padding-right: 100px;
+    }
+.searchbutton{
+    position: relative;
+   top: 20px;
+    border: none;
+    background: none;
+    outline:none;
+    padding-right: 250px;
+  }
+.nav{
+    margin: 0px 30px;
+    
+}
+.home{
+    background-color: rgb(138, 211, 240);
+    height: 120px;
+}
+.user{
+    display: inline-block;
+    position: relative;
+    top: 15px;
+    left: 20px;
+    padding-right: 5px;
+}
+.usertext{
+    color:ivory;
+    font-size: 20px;
+    font-weight: bolder;
+    display: inline-block;
+    padding-right: 80px;
+}
+.cartimg{
+  display: inline-block;
+  position: relative;
+  top:10px;
+  padding-right: 20px;
+}
+.cartre{
+    color: ivory;
+    font-weight: bolder;
+    font-size: 20px;
+    
+}
+.navbar {
+    overflow: hidden;
+    padding-left: 50px;
+    background-color:orange;
+  }
+  
+  .navbar a {
+    float: left;
+    font-size: 25px;
+    color: ivory;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  .dropdown {
+    float: left;
+    overflow: hidden;
+  }
+  
+  .dropdown .dropbtn {
+    font-size: 25px;  
+    border: none;
+    outline: none;
+    color: ivory;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+  }
+  
+  .navbar a:hover, .dropdown:hover .dropbtn {
+    background-color: orangered;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: rgb(138, 211, 240);
+    min-width: 150px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    float: none;
+    color: ivory;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  
+  .dropdown-content a:hover {
+    background-color: orangered;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+  /* Slideshow container */
+  .slideshow-container {
+    max-width: 1700px;
+    position: relative;
+    margin: auto;
+  }
+  
+  
+  /* The dots/bullets/indicators */
+  .dot {
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: rgb(187, 187, 187);
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
+  
+  .active {
+    background-color: rgb(163, 154, 154);
+  }
+  
+  /* Fading animation */
+  .fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+  
+  @-webkit-keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
+  }
+  
+  @keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
+  }
+  
+  /* On smaller screens, decrease text size */
+  @media only screen and (max-width: 300px) {
+    .text {font-size: 11px}
+  }
+    /* admin page css */
+  .nameadmin{
+    color: orangered;
+    font-size: 20px;
+    text-align: center;
+    position: relative;
+    top: 35px;
+    font-weight: bolder;
+  }
+  .headadmin{
+    position: relative;
+    background-color: orange;
+    height: 60px;
+  }
+  table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  .user{
+        padding: 0px 20px;
+     }
+  .prod{
+    position: relative;
+    padding-left: 20px;
+  }
+.useradd{
+  background-color: wheat;
+  padding:20px 20px;
+}
+.textadmin{
+  color: rgb(172, 83, 83);
+}
+.menuadmin{
+  color: ivory;
+  padding: 20px 20px;
+  background-color:orange ;
+  
+}
+.menuadmin:hover{
+  color: ivory;
+  padding: 20px 20px;
+  font-weight: bolder;
+  background-color:rgb(138, 211, 240) ; 
+}
+.menufield{
+  text-align: center;
+}
+.formtext{
+  color: ivory;
+}
+.box{
+  padding: 30px 30px;
+}
+
+table {
+  width:100%;
+}
+table, th, td {
+  background-color: ivory;
+  border: 1px solid rgb(223, 17, 17);
+  border-collapse: collapse;
+}
+th, td {
+  padding: 15px;
+  text-align: left;
+}
+
+.itemname{
+  color: ivory;
+  font-size: 20px;
+  font-weight: bolder;
+}
+.imgshowpart{
+  display: inline-block;
+  padding-left: 100px;
+}
+.datacollect{
+  display: inline-block;
+  position: relative;
+  left: 30px;
+  bottom: 150px;
+}
+.addbtn{
+  background-color: orange;
+  color: ivory;
+  padding: 5px 20px;
+  border: none;
+  float: right;
+}
+.itembox{
+  color: skyblue;
+}
+ /* login page */
+.toplogin{
+  background-color:orange;
+  width: 100%;
+  height: 70px;
+}
+.logintext{
+  font-size: 20px;
+  font-weight: bolder;
+  position: relative;
+  top: 30px;
+  text-align: center;
+  color: orangered;
+}
+.loginarea{
+  width: 70%;
+  height: 50%;
+  background-color:rgb(231, 226, 226);
+}
+.login{
+  display: inline-block;
+  background: orange ;
+  border: solid;
+  color: ivory;
+  border-color: brown;
+  padding: 10px 10px;
+}
+.login:hover{
+  display: inline-block;
+  background: skyblue ;
+  border: solid;
+  font-weight: bolder;
+  color: ivory;
+  border-color: rgb(69, 69, 196);
+  padding: 10px 10px;
+}
+.register{
+  position: relative;
+  top: 1px;
+  display: inline-block;
+  background: orange;
+  border: solid;
+  color: ivory;
+  border-color:brown ;
+  padding: 9px 9px;
+}
+.register:hover{
+  display: inline-block;
+  background: skyblue ;
+  border: solid;
+  font-weight: bolder;
+  color: ivory;
+  border-color: rgb(69, 69, 196);
+  padding: 10px 10px;
+}
+  .button{
+    position: relative;
+    top: 30px;
+    background-color: orange;
+    padding: 20px 20px;
+  }
+  .button:hover{
+    position: relative;
+    top: 30px;
+    font-weight: bolder;
+    background-color: rgb(138, 211, 240);
+    padding: 20px 20px;
+  }
+  .showname{
+    color: rgb(182, 21, 21);
+    font-size: 30px;
+    float: left;
+    position: relative;
+    top: 20px;
+    left:30px;
+  }
+  .productname{
+    color: olivedrab;
+    font-size: 20px;
+    text-align: center;
+  }
+  .productprice{
+    color: orangered;
+    font-size: 20px;
+    text-align: center;
+  }
+  .showcase{
+    background-color: rgb(240, 240, 243);
+    padding: 20px 20px;
+  }
+  .showcasemerch{
+    background-color: rgb(240, 240, 243);
+    padding: 20px 20px;
+  }
+  .productbox{
+    position: relative;
+    top: 30px;
+    display: inline-block;
+    padding: 20px 20px;
+  }
+  .productbox:hover{
+    background-color:orange;
+    padding: 20px 20px;
+  }
+  .productboxmerch{
+    position: relative;
+    top: 30px;
+    display: inline-block;
+    padding: 20px 20px;
+  }
+  .productboxmerch:hover{
+    background-color: ivory;
+    padding: 20px 20px;
+  }
+.titleboot {
+  color: ivory;
+  font-size: 20px;
+  background-color: orange;
+}
+
+.infoboot {
+  color: ivory;
+  font-size: 10px;
+  background-color: orange;
+  margin-top: 20px;
+}
+.section {
+   text-align: center;
+  border-right: 1px solid ivory;
+  padding: 20px 20px;
+  display: inline-block;
+  text-align: center;
+  background-color: orange;
+}
+.bottom {
+  text-align: center;
+  background-color: orange;
+}
+
+.section1 {
+  text-align: center;
+  padding: 20px 20px;
+  display: inline-block;
+  text-align: center;
+  background-color: orange;
+  position: relative;
+  top: 20px;
+}
+
+.imgboot {
+  background-color: orange;
+  display: inline;
+  padding: 0px 5px;
+}
+
+.imgboot:hover {
+  background-color: orange;
+  display: inline;
+  transform: scale(2.5);
+  padding: 0px 5px;
+}
+
+.section2 {
+  text-align: center;
+  padding: 20px 20px;
+  border-right: 1px solid ivory;
+  display: inline-block;
+  text-align: center;
+  background-color: orange;
+  position: relative;
+  bottom: 60px;
+}
+.footer {
+  background-color: orange;
+   padding: 20px 20px;
+}
+
+.forfoot {
+      background-color: orange;
+    padding: 20px 20px;
+    display: inline;
+    color: ivory;
+}
+.sendmail{
+  background-color: orange;
+  color: rgb(255, 255, 255);
+  padding : 10px 30px;
+  border: none;
+}
+.sendmail:hover{
+  background-color: skyblue;
+  color: rgb(255, 255, 255);
+  padding : 10px 30px;
+  font-weight: bolder;
+  border: none;
+}
+.cartbtn{
+  color: ivory;
+  border: none;
+  background: rgb(248, 170, 24);
+}
+.cartbtn:hover{
+  color: ivory;
+  border: none;
+  font-weight: bolder;
+  background: orangered;
+}
